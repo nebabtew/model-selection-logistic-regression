@@ -33,20 +33,6 @@ Assignment 5 for the ML Life Cycle course: Evaluation and Deployment. This proje
 - Top 5 features by `SelectKBest` (ANOVA F-test): `host_response_rate`, `number_of_reviews`, `number_of_reviews_ltm`, `number_of_reviews_l30d`, `review_scores_cleanliness`
 - AUC using only the top 5 features: 0.7926 (lower than the full-feature model, so the additional features do contribute meaningfully)
 
-## Repo Structure
-
-```
-model-selection-logistic-regression/
-├── README.md
-├── data/
-│   └── airbnbData_train.csv
-├── models/
-│   └── airbnb_model.pkl
-├── notebooks/
-│   └── ModelSelectionForLogisticRegression.ipynb
-└── .gitignore
-```
-
 ## Tools Used
 
 - Python, pandas, NumPy
